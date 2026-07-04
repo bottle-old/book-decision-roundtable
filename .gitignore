@@ -1,0 +1,46 @@
+# 操作系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.bak
+
+# 隐私/本地配置
+.env
+.env.local
+config.local.*
+
+# 原始书籍文件（版权材料 - 绝对不上传）
+*.epub
+*.pdf
+*.mobi
+*.azw3
+
+# 本地完整版（防止误推送）
+book_decision_roundtable_local_only/
+
+# 生成脚本
+/book_db/sanitize_books.py
+/book_db/generate_*.py
+/book_db/gen_*.py
+/book_db/*.json
